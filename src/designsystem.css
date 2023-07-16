@@ -1,0 +1,46 @@
+.heading {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #151515;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.heading.sm {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: #151515;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* buttons */
+
+
+
+@media screen and (min-width:768px){
+    .heading.md {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .body.md {
+        color: #444;
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+@media screen and (min-width:1024px){
+    .heading.lg {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+@media screen and (min-width:1200px){
+    .heading.xl {
+        font-size: 96px;
+        line-height: 88px;
+    }
+}
