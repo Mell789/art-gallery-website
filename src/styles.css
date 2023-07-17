@@ -4,3 +4,11 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+/* our location */
+.mag {
+    gap: 32px;
+}
+.modernartgallery {
+    font-size: 50px;
+    line-height: 45px;
+}
