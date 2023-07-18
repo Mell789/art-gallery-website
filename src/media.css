@@ -15,6 +15,11 @@
         font-size: 65px;
         line-height: 65px;
     }
+    /* your day */
+    .yourday img {
+        width: 400px;
+        height: 400px;
+    }
 }
 @media screen and (min-width:1024px){
     /* our location section */
@@ -41,6 +46,11 @@
     }
     .modernartgallery.position {
         right: 737px;
+    }
+    /* your day */
+    .yourday img {
+        width: 635px;
+        height: 400px;
     }
 }
 @media screen and (min-width:1400px){
