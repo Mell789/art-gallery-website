@@ -1,9 +1,79 @@
 @media screen and (min-width:768px){
+    /* our location section */
     .imageContainer {
         width: 437px;
         height: 700px;
     }
+    .mag {
+        position: absolute;
+        top: 145px;
+        right: 40px;
+        max-width: 355px;
+        gap: 48px;
+    }
+    .modernartgallery {
+        font-size: 65px;
+        line-height: 65px;
+    }
 }
-@media screen and (min-width:1024px){}
-@media screen and (min-width:1200px){}
-@media screen and (min-width:1400px){}
+@media screen and (min-width:1024px){
+    /* our location section */
+    .blackdiv {
+        width: 250px;
+        height: 700px;
+        background-color: #151515;
+    }
+}
+@media screen and (min-width:1200px){
+    /* our location section */
+    .blackdiv {
+        width: 450px;
+        height: 800px;
+        background-color: #151515;
+    }
+    .imageContainer {
+        width: 540px;
+        height: 800px;
+    }
+    .mag {
+        top: 190px;
+        right: 100px;
+    }
+    .modernartgallery.position {
+        right: 737px;
+    }
+}
+@media screen and (min-width:1400px){
+    /* our location section */
+    .blackdiv {
+        width: 450px;
+        height: 800px;
+        background-color: #151515;
+    }
+    .imageContainer {
+        width: 540px;
+        height: 800px;
+    }
+    .mag {
+        top: 190px;
+        right: 164px;
+    }
+}
+@media screen and (min-width:1600px){
+    /* our location section */
+    .blackdiv {
+        width: 630px;
+    }
+    .modernartgallery.position {
+        left: 15%;
+    }
+    .mag {
+        right: 12%;
+    }
+}
+@media screen and (min-width:1900px){
+    /* our location section */
+    .blackdiv {
+        width: 700px;
+    }
+}

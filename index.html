@@ -27,24 +27,31 @@
   <div class="mainContainer">
     <main>
       <!-- our location -->
-      <section class="our-location mb-120 position-relative">
+      <section class="our-location mb-120 mb-xl-180 position-relative d-lg-flex">
+        <div class="blackdiv"></div>
         <div class="mb-32 imageContainer">
-          <img src="assets/mobile/image-hero@2x.jpg" class="img-cover">
+          <img src="assets/mobile/image-hero@2x.jpg" class="img-cover d-md-none">
+          <img src="assets/tablet/image-hero@2x.jpg" class="img-cover d-none d-md-block d-xl-none">
+          <img src="assets/desktop/image-hero@2x.jpg" class="img-cover d-none d-xl-block">
         </div>
         <div class="d-flex flex-column px-16 mag">
-          <div class="heading modernartgallery">MODERN ART GALLERY</div>
+          <div class="heading modernartgallery d-md-none">MODERN ART GALLERY</div>
+          <div class="heading modernartgallery d-none d-md-block pre-line d-xl-none">MODERN 
+ART GALLERY</div>
           <p class="m-0 body large">
-            Wander through our distinct collections and find new insights about our artists. Dive into the details of their creative process.
+            The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.
           </p>
           <div>
-            <button class="button">
+            <a class="button" href="javascript:void(0);">
               <div class="text">Our Location</div>
               <div class="arrow">
                 <img src="assets/icon-arrow-right.svg" alt="">
               </div>
-            </button>
+            </a>
           </div>
         </div>
+        <div class="heading xl modernartgallery position pre-line d-none d-xl-block">Modern 
+Art Gallery</div>
       </section>
     </main>
   </div>

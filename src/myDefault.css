@@ -36,7 +36,9 @@ footer.default {
   user-select: none;
 }
 
-
+.pre-line {
+  white-space: pre-line;
+}
 
 
 .w-60 {
