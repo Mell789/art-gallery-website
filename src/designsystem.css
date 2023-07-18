@@ -19,6 +19,7 @@
     display: flex;
     align-items: stretch;
     border: none;
+    user-select: none;
 }
 .button .text,.button .arrow {transition: .3s;}
 .button:hover .text {
