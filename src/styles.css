@@ -38,7 +38,20 @@ body {
     text-transform: uppercase;
     margin: 0;
 }
+.footerHeading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+}
 /* beinspired section */
 .grid {
     display: grid;
+}
+
+/* footer */
+.footerp {
+    max-width: 280px;
 }

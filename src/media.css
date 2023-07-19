@@ -71,6 +71,10 @@
         width: 550px;
         height: 400px;
     }
+    /* footer */
+    .footerp {
+        max-width: 480px;
+    }
 }
 @media screen and (min-width:1400px){
     /* our location section */

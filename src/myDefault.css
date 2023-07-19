@@ -40,6 +40,9 @@ footer.default {
   white-space: pre-line;
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
 
 .w-60 {
   width: 60% !important;
