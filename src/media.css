@@ -20,6 +20,25 @@
         width: 400px;
         height: 400px;
     }
+    /* beinspired section */
+    .grid {
+        grid-template-columns: 10fr 7fr;
+        grid-template-rows: 313px auto;
+        
+    }
+    .grid .item1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 720px;
+    }
+    .grid .item2 {
+        max-height: 313px;
+        height: 100% !important;
+    }
+    .grid .item3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
 }
 @media screen and (min-width:1024px){
     /* our location section */

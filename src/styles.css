@@ -1,4 +1,11 @@
 
+:root {
+    --almost-black: #151515;
+}
+
+.almost-black-bg {background-color: var(--almost-black);}
+.white {color: white !important;}
+
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -21,7 +28,7 @@ body {
     text-shadow: 0 0 20px black;
 }
 /* your day at the gallery */
-.yourday h1 {
+.headingDefault {
     color: var(--almost-black, #151515);
     font-family: Big Shoulders Display;
     font-size: 50px;
@@ -29,4 +36,9 @@ body {
     font-weight: 900;
     line-height: 45px; /* 90% */
     text-transform: uppercase;
+    margin: 0;
+}
+/* beinspired section */
+.grid {
+    display: grid;
 }
