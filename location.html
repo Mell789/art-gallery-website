@@ -5,28 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700;800;900&family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+ 
+  <link rel="stylesheet" href="src/bootstrap.css">
+  <link rel="stylesheet" href="src/csslibrary.css">
+  <link rel="stylesheet" href="src/myDefault.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/designsystem.css">
+  <link rel="stylesheet" href="src/media.css">
   
   <title>Frontend Mentor | Art gallery website</title>
 </head>
 <body>
 
-  Back to Home
+  <div class="mainContainer">
+    <main>
+      <div id="map"></div>
+      <div class="d-flex flex-column flex-md-row justify-content-md-between py-48 py-md-80 py-xl-100 px-16 px-md-40 px-xl-165 px-4xl-200 almost-black-bg gap-48 gap-md-68 gap-lg-200 gap-xl-250">
+        <h1 class="m-0 heading lg ourlocationheading d-md-none">OUR LOCATION</h1>
+        <h1 class="m-0 heading lg ourlocationheading d-none d-md-block pre-line">OUR
+LOCATION</h1>
+        <div class="d-flex flex-column gap-20 streetcontainer">
+          <h3 class="street gold">99 King Street</h3>
+          <div>
+            <div class="body text-white">Newport</div>
+            <div class="body text-white">RI 02840</div>
+            <div class="body text-white">United States of America</div>
+          </div>
+          <p class="m-0 text-white">
+            Our newly opened gallery is located near the Edward King House on 99 King Street, the Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm.
+          </p>
+        </div>
+      </div>
 
-  Our location
 
-  99 King Street
-  Newport
-  RI 02840
-  United States of America
+      <a class="button positionedbutton" href="index.html">
+        <div class="text">Our Location</div>
+        <div class="arrow">
+          <img src="assets/icon-arrow-right.svg" alt="">
+        </div>
+      </a>
+    </main>
+    <footer class="gold-bg">
+      <div class="py-48 px-32 py-md-56 px-md-40 px-lg-100 px-xl-165 px-4xl-200 d-flex flex-column flex-md-row justify-content-md-between align-items-md-start gap-38">
+        <div class="d-flex flex-column flex-md-row gap-38 gap-md-65 gap-lg-140 gap-3xl-220 gap-4xl-280 gap-xl-140">
+          <img src="assets/footerheading-mobile-dark.svg" class="d-xl-none baseline">
+          <img src="assets/footerheading-desktop-dark.svg" class="d-none d-xl-block baseline">
+          <p class="body large text-white m-0 footerp almost-black">
+            The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+          </p>
+        </div>
+        <div class="socialicons d-flex gap-20">
+          <img src="assets/icon-facebook-dark.svg" alt="facebook" class="pointer">
+          <img src="assets/icon-instagram-dark.svg" alt="instagram" class="pointer">
+          <img src="assets/icon-twitter-dark.svg" alt="twitter" class="pointer">
+        </div>
+      </div>
+    </footer>
+  </div>
 
-  Our newly opened gallery is located near the Edward King House on 99 King 
-  Street, the Modern Art Gallery is free to all visitors and open seven days 
-  a week from 8am to 9pm.
-
-  Modern Art Gallery
-
-  The Modern Art Gallery is free to all visitors and open seven days a week 
-  from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-
+  
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+  <script src="src/scripts/map.js"></script>
 </body>
 </html>

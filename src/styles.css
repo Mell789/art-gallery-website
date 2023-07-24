@@ -1,11 +1,18 @@
 
 :root {
     --almost-black: #151515;
+    --gold: #D5966C;
 }
 
+.almost-black {color: var(--almost-black) !important;}
 .almost-black-bg {background-color: var(--almost-black);}
+.gold {color: var(--gold);}
+.gold-bg {background-color: var(--gold);}
 .white {color: white !important;}
 
+.baseline {
+    align-self: baseline;
+}
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -54,4 +61,33 @@ body {
 /* footer */
 .footerp {
     max-width: 280px;
+}
+
+
+
+/* location.html */
+#map { height: 550px; }
+.leaflet-tile {filter: grayscale(100%);}
+.positionedbutton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.ourlocationheading {
+    color: var(--white, #FFF) !important;
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+}
+.street {
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
 }
