@@ -38,7 +38,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Mell789](https://www.frontendmentor.io/profile/yourusername)
-- Github - [@Mell789](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Mell789](https://www.frontendmentor.io/profile/Mell789)
+- Github - [@Mell789](https://github.com/Mell789)
 
 
