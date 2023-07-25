@@ -78,7 +78,7 @@
         right: 100px;
     }
     .modernartgallery.position {
-        right: 737px;
+        right: 828px;
     }
     /* your day */
     .yourday img {
@@ -109,6 +109,13 @@
     .mag {
         top: 190px;
         right: 164px;
+    }
+    .modernartgallery.position {
+        background-image: linear-gradient(90deg,#fff 0 64%,#151515 64% 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-shadow: unset;
+        color: transparent;
     }
     /* your day */
     .yourday img {
