@@ -129,7 +129,8 @@
         width: 630px;
     }
     .modernartgallery.position {
-        left: 15%;
+        left: 16%;
+        background-image: linear-gradient(90deg,#fff 0 62%,#151515 62% 100%);
     }
     .mag {
         right: 12%;
@@ -139,6 +140,10 @@
     /* our location section */
     .blackdiv {
         width: 700px;
+    }
+    .modernartgallery.position {
+        left: 17.5%;
+        background-image: linear-gradient(90deg,#fff 0 48%,#151515 48% 100%);
     }
     /* your day */
     .yourday img {
